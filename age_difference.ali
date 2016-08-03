@@ -1,0 +1,62 @@
+V "GNAT Lib v2016"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U age_difference%b	age_difference.adb	f21601c6 NE OO SU IU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-inteio.ads		20160516092932 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D age_difference.adb	20160803155601 418baeab age_difference%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092927 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092931 c3282aa7 system%s
+D s-conca2.ads		20160516092930 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20160516092932 0b705ca5 system.concat_3%s
+D s-crtl.ads		20160516092927 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092933 078245e4 system.file_control_block%s
+D s-imgint.ads		20160516092928 02dbe0c2 system.img_int%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092931 1b7d22d2 system.wch_con%s
+D text_io.ads		20160516092930 45d626c9 text_io%s
+X 1 ada.ads
+16K9*Ada 19e8 10|1r15 2r14
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 10|1w19 2r18
+X 7 a-textio.ads
+242U14*Put 10|7s5
+263U14*Put_Line 10|9s5 10s5 14s9 18s9 21s9
+X 8 a-tiinio.ads
+56U14*Get 10|8s5[3|18]
+X 10 age_difference.adb
+3U11*AGE_DIFFERENCE 3b11 24l5 24t19
+4i1 MY_AGE{integer} 6m5 10r38 12r8 13r36 16r11 17r47
+4i9 YOUR_AGE{integer} 8m9 9r46 12r17 13r45 16r20 17r36
+4i19 YEAR_DIFFERENCE{integer} 13m17 15r47 17m17 19r47
+X 28 text_io.ads
+24K9*Text_IO=24:29 10|1w6 2r5
+
