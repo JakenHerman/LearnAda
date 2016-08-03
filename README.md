@@ -16,3 +16,5 @@ Use the command `./filename`.
 AGE_DIFFERENCE
 =
 This was my first Ada Program. This introduced me to text i/o and integer i/o, as well as conditionals and printing text and integers in the sameline by using `Integer'Image(VAR_NAME)`. You can use this as a solution/guide when trying to create the replica version. I have created the skeleton code for you in **LEARN_AGE_DIFFERENCE.adb**. Feel free to code the solution yourself in order to increase your knowledge of the Ada programming language.
+
+ ![Ada Lovelace](http://www.eejournal.com/files/1014/4967/9463/Screen_Shot_2015-12-09_at_8.44.03_AM.png)
