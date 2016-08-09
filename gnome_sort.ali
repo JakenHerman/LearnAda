@@ -1,0 +1,78 @@
+V "GNAT Lib v2016"
+M P W=b
+P ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+
+U gnome_sort%b		gnome_sort.adb		50f3c8cd NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+W ada.text_io.integer_io%s
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20160516092928 3ffc8e18 ada%s
+D a-except.ads		20160516092928 291912d5 ada.exceptions%s
+D a-ioexce.ads		20160516092927 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20160516092929 119b8fb3 ada.streams%s
+D a-tags.ads		20160516092932 01f5e3ef ada.tags%s
+D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
+D a-tiinau.ads		20160516092930 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20160516092928 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20160516092930 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20160516092931 f9eb8f06 ada.unchecked_conversion%s
+D gnome_sort.adb	20160809200015 689e3d19 gnome_sort%b
+D interfac.ads		20160516092928 5ab55268 interfaces%s
+D i-cstrea.ads		20160516092927 e53d8b8e interfaces.c_streams%s
+D system.ads		20160516092931 c3282aa7 system%s
+D s-conca2.ads		20160516092930 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20160516092932 0b705ca5 system.concat_3%s
+D s-crtl.ads		20160516092927 0ebbdb71 system.crtl%s
+D s-exctab.ads		20160516092931 54135002 system.exception_table%s
+D s-ficobl.ads		20160516092933 078245e4 system.file_control_block%s
+D s-imgint.ads		20160516092928 02dbe0c2 system.img_int%s
+D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
+D s-soflin.ads		20160516092929 14e1eb6c system.soft_links%s
+D s-stache.ads		20160516092932 a37c21ec system.stack_checking%s
+D s-stalib.ads		20160516092931 09bd3940 system.standard_library%s
+D s-stoele.ads		20160516092932 2dc34a04 system.storage_elements%s
+D s-traent.ads		20160516092928 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160516092930 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20160516092931 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 11|1r6 1r23 3r24
+X 6 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 1r27 3r28
+166U14*New_Line 11|35s13 37s30 39s66 41s28 46s5
+242U14*Put 11|28s14 36s13 39s13 41s5 44s13
+263U14*Put_Line 11|47s5
+X 8 a-tiinio.ads
+46k21*Integer_IO 85e27 11|3r36
+56U14 Get 11|37s13[3]
+X 11 gnome_sort.adb
+2U11*gnome_sort 2b11 49l5 49t15
+3K13 IIO[8|46] 3r61
+4A10 int_array(integer)<integer> 7r9 10r31
+6i5 pos{integer} 12m9 13r15 14r16 15m17 15r24 16r21 16r31 17m17 17r24 19r29
+. 20r19 20r29 21r19 22m17 22r24
+7a5 a{4A10} 38m13 44r31 48m10 48r10
+8i5 buffer{integer} 19m17 21r31
+9i5 user_value{integer} 37m17 38r21 39r52
+10U15 sort 10b15 10=20 31l9 31t13 48s5
+10a20 a{4A10} 16r19 16r29 19r27 20m17 20r27 21m17 28r32
+26l9 Print_array 29l18 29e29
+27i14 i{integer} 28r34
+33l5 Get_values 40l14 40e24
+34i13 i{integer} 36r53 38r15
+42l5 Print_array 45l14 45e25
+43i13 i{integer} 44r33
+
